@@ -82,7 +82,7 @@ export default function Product() {
                     <div className="starting">
                       <BsBoxSeamFill size={24} color={'green'}/> &nbsp;&nbsp; {product.stock} (in-stock)
                     </div>
-                    <div className="price-des">$ {product.dicountedPrice?.toFixed(2)} &nbsp; <span>  <strike>$ {product.price.toFixed(2)}</strike></span></div></div>
+                    <div className="price-des">$ {product.dicountedPrice?.toFixed(2)} &nbsp; <span>  <s>$ {product.price.toFixed(2)}</s></span></div></div>
                   <div className="">
                     {
                       ratingStar.split(',').map((str) => {
@@ -96,7 +96,7 @@ export default function Product() {
                       })
                     }
                   </div>
-                  <button className="btn btn-primary mt-2" onClick={(e:Event)=> alert("features coming !!!!")}> Shop Now</button>
+                  <button className="btn btn-primary mt-2" onClick={(e)=> alert("features coming !!!!")}> Shop Now</button>
                 </div>
               </div>
             </div>

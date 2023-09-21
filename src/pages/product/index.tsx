@@ -36,7 +36,7 @@ export default function Product() {
             </div>
             <div className="text-box">
               <h2 className="item">{ele.title}</h2>
-              <h3 className="price"><b>$ {ele.dicountedPrice}</b> <strike>$ {ele.price}</strike> </h3>
+              <h3 className="price"><b>$ {ele.dicountedPrice}</b> <s>$ {ele.price}</s> </h3>
               <p className="description">{ele.description}</p>
                 <button type="button" className="btn btn-primary">See Details</button>
             </div>
