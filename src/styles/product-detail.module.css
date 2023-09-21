@@ -1,0 +1,35 @@
+.head-text {
+    text-align: left;
+}
+
+img.head-img img {
+}
+
+img.head-img {
+    width: 500px;
+}
+  
+.rating {
+    color: yellow;
+}
+
+.pricing .price-box {
+    font-size: 12px;
+    line-height: 1;
+    overflow: hidden;
+    padding: 0 20px 20px;
+}
+.pricing * {
+    position: relative;
+}
+
+.pricing .price-box .price {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 13px 0 0;
+}
+.pricing .price-box .price span {
+    font-size: 12px;
+}
+  
+  
